@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="website icon" type="png"
+   href="https://1.bp.blogspot.com/-22tODMfqMHU/XPFXwiyY8_I/AAAAAAABMIA/dHbiu-tVdoEx0EvViI0sb51BEiRif54hwCLcBGAs/s1600/hago_mi_tarea.png"
+  <title>Linea del Tiempo: Evolucion del Transporte</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fcae1c;
+      color: #000000;      
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #32df3f;
+    }
+    .timeline {
+      position: relative;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .timeline::after {
+      content: '';
+      position: absolute;
+      width: 8px;
+      background-color: #2c3e50;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      margin-left: -3px;
+    }
+    .container {
+      padding: 15px 30px;
+      position: relative;
+      background-color: inherit;
+      width: 50%;
+    }
+    .left {
+      left: 0;
+    }
+    .right {
+      left: 50%;
+    }
+    .container::after {
+      content: '';
+      position: absolute;
+      width: 25px;
+      height: 25px;
+      right: -12.5px;
+      background-color: white;
+      border: 5px #000000;
+      top: 15px;
+      border-radius: 50%;
+      z-index: 1;
+    }
+    .right::after {
+      left: -12.5px;
+    }
+    .content {
+      padding: 20px;
+      background-color: #2b94d8;
+      position: relative;
+      border-radius: 6px ;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    @media screen and (max-width: 768px) {
+      .container {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+      }
+      .container::after {
+        left: 60px;
+      }
+      .right {
+        left: 0%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<h1>Linea del Tiempo: Evolucion del Transporte y el Medio Ambiente</h1>
+
+<div class="timeline">
+  <div class="container left">
+    <div class="content">
+      <h3> Antiguedad (hasta siglo V)</h3>
+      <p><strong>Avances:</strong> Caminatas, animales de carga, barcos a remo y vela.</p>
+      <p><strong>Impacto:</strong> Minimo, uso de recursos renovables.</p>
+    </div>
+  </div>
+
+  <div class="container right">
+    <div class="content">
+      <h3> Edad Media (siglos V-XV)</h3>
+      <p><strong>Avances:</strong> Carreteras medievales, navegacion a vela mejorada.</p>
+      <p><strong>Impacto:</strong> Deforestacion moderada, impacto bajo.</p>
+    </div>
+  </div>
+
+  <div class="container left">
+    <div class="content">
+      <h3> Revolucion Industrial (siglos XVIII-XIX)</h3>
+      <p><strong>Avances:</strong> Maquina de vapor, trenes, barcos de vapor.</p>
+      <p><strong>Impacto:</strong> Alta contaminacion por carbon, infraestructura expansiva.</p>
+    </div>
+  </div>
+
+  <div class="container right">
+    <div class="content">
+      <h3> Siglo XX (1900-1990)</h3>
+      <p><strong>Avances:</strong> Automoviles, aviacion, carreteras modernas.</p>
+      <p><strong>Impacto:</strong> Emisiones masivas, contaminacion urbana, fragmentacion ambiental.</p>
+    </div>
+  </div>
+
+  <div class="container left">
+    <div class="content">
+      <h3> Finales del siglo XX e inicios del XXI (1990-2020)</h3>
+      <p><strong>Avances:</strong> Vehiculos hibridos, trenes de alta velocidad, conciencia ambiental.</p>
+      <p><strong>Impacto:</strong> Intentos de mitigacion, pero persistencia de emisiones fosiles.</p>
+    </div>
+  </div>
+
+  <div class="container right">
+    <div class="content">
+      <h3> Actualidad y futuro cercano (2020-presente)</h3>
+      <p><strong>Avances:</strong> Electrificacion, hidrogeno, movilidad compartida, transporte autonomo.</p>
+      <p><strong>Impacto:</strong> Reduccion potencial de emisiones, nuevos desafios ecologicos (baterias, litio).</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
